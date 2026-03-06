@@ -21,7 +21,7 @@ nnoremap <silent> k gk
 nnoremap <silent> gk k
 nnoremap <silent> j gj
 nnoremap <silent> gj j
-runtime! ftplugin/man.vim " :Man commandでマニュアルを表示できるようにする
+runtime ftplugin/man.vim " :Man commandでマニュアルを表示できるようにする
 if has('patch-9.1.1590')
   set autocomplete
 endif
